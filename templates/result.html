@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classification Result</title>
+</head>
+
+<body>
+    <h1>Classification Result</h1>
+    <p><strong>Predicted Terrain:</strong> {{ terrain_type }}</p>
+    <p><strong>Confidence:</strong> {{ confidence }}%</p>
+    <p>Captured Image:</p>
+    <img src="{{ image_path }}" alt="Captured Image" style="max-width: 100%; height: auto;">
+    <a href="/">Capture Another Image</a>
+</body>
+
+</html>
